@@ -1,0 +1,28 @@
+
+body{
+    background-color: #006080;
+    color: #fff;
+}
+div{
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+.image{
+    width: 25%;
+    height: 25%;
+    /*float: right;*/
+}
+#butn{
+cursor: pointer;
+color: #000;
+background-color: #a35402;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+border-radius: 15px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
