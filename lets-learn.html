@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Home| Responsive Css</title>
+    <style>
+        #container{
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px purple;
+            margin: 10px;
+        }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        p {
+          color: white;
+          background-color: blue;
+          
+        }
+      }
+      @media only screen and (min-width: 560px) {
+        div {
+          color: gold;
+          background-color: green;
+          
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="container">
+      <h1>Device Responsive Color Themes Using CSS</h1>
+    </header>
+    <nav></nav>
+    <main>
+      <!--Screen larger than 560px-->
+      <section>
+        <em>Designed for Screen larger than 560px</em>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          asperiores dolores eligendi, cum mollitia, consectetur nesciunt est
+          temporibus iure cumque iusto magni omnis esse praesentium accusamus
+          dicta excepturi nam ex!
+        </div>
+      </section>
+
+      <!--Screen between 768px and 1024 px-->
+
+      <section>
+        <em>Designed for Screen between 768px and 1024px</em>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          alias natus neque quod, sunt aut quaerat omnis. Velit dicta ut
+          inventore totam quos illo. Odit corporis veniam quas esse soluta!
+        </p>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
