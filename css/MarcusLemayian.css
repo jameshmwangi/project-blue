@@ -1,0 +1,12 @@
+:root{
+    --clr-1:#FFD700;
+--clr-2:#860b0b;
+}
+
+sup {
+    color: grey ;
+    text-decoration: underline;
+}
+a:visited{
+    color:var(--clr-2);
+}
